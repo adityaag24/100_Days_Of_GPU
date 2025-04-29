@@ -16,4 +16,4 @@ Code Repository for the 100 Days of GPU Challenge
 
 >> Read Chapter 2 of PMPP Book
 
->> Read about [Performance Metrics in CUDA]{https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc}
+>> Read about [Performance Metrics in CUDA](https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc)
