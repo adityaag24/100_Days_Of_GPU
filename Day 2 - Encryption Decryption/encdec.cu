@@ -47,6 +47,7 @@ int main() {
         fprintf(stderr, "Error allocating device memory: %s\n", cudaGetErrorString(err));
         return 1;
     }
+    cudaEventRecord(start, 0);
     err = cudaMemcpy(d_message, message, length * sizeof(char), cudaMemcpyHostToDevice);
     if (err != cudaSuccess) {
         fprintf(stderr, "Error copying data to device: %s\n", cudaGetErrorString(err));
@@ -54,7 +55,6 @@ int main() {
     }
     dim3 block(8, 8, 1);
     dim3 grid(1, 1, 1);
-    cudaEventRecord(start, 0);
     encryptKernel<<<grid, block>>>(d_message, length);
     err = cudaGetLastError();
     if (err != cudaSuccess) {
@@ -71,13 +71,13 @@ int main() {
     cudaEventElapsedTime(&elapsedTime, start, stop);
     printf("Encrypted message: %s\n", message);
     printf("Time taken for encryption: %.2f ms\n", elapsedTime);
-    printf("Bandwidth Utilization = %.2fKB/s\n", ((float)length * sizeof(char)) / (elapsedTime * 1e3));
+    printf("Bandwidth Utilization = %.2fKB/s\n", ((float)length * sizeof(char) * 2) / (elapsedTime * 1e3));
+    cudaEventRecord(start, 0);
     err = cudaMemcpy(d_message, message, length * sizeof(char), cudaMemcpyHostToDevice);
     if (err != cudaSuccess) {
         fprintf(stderr, "Error copying data to device: %s\n", cudaGetErrorString(err));
         return 1;
     }
-    cudaEventRecord(start, 0);
     decryptKernel<<<grid, block>>>(d_message, length);
     err = cudaGetLastError();
     if (err != cudaSuccess) {
@@ -94,7 +94,7 @@ int main() {
     cudaEventElapsedTime(&elapsedTime, start, stop);
     printf("Decrypted message: %s\n", message);
     printf("Time taken for decryption: %.2f ms\n", elapsedTime);
-    printf("Bandwidth Utilization = %.2fKB/s\n", ((float)length * sizeof(char)) / (elapsedTime * 1e3));
+    printf("Bandwidth Utilization = %.2fKB/s\n", ((float)length * sizeof(char) * 2) / (elapsedTime * 1e3));
     err = cudaFree(d_message);
     if (err != cudaSuccess) {
         fprintf(stderr, "Error freeing device memory: %s\n", cudaGetErrorString(err));
