@@ -17,3 +17,14 @@ Code Repository for the 100 Days of GPU Challenge
 >> Read Chapter 2 of PMPP Book
 
 >> Read about [Performance Metrics in CUDA](https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc)
+
+## Day 3
+> Coding:-
+
+>> Coded the Matrix Multiplication Kernel Basic
+
+> Reading:-
+
+>> Read about Matmul from [this link](https://drive.google.com/file/d/1ZH4-TlBWy5c9JP7gXxNQ4dAKZBZVwvHY/view)
+
+>> Solved the Exercises of Chapter 2 of PMPP book.
