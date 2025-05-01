@@ -28,3 +28,12 @@ Code Repository for the 100 Days of GPU Challenge
 >> Read about Matmul from [this link](https://drive.google.com/file/d/1ZH4-TlBWy5c9JP7gXxNQ4dAKZBZVwvHY/view)
 
 >> Solved the Exercises of Chapter 2 of PMPP book.
+
+## Day 4
+> Coding:-
+
+>> Coded the Color to Grayscale Image Converter Kernel
+
+> Reading:-
+
+>> Read Chapter 3 (Half) of the PMPP book.
