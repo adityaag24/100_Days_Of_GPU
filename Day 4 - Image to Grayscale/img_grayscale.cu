@@ -22,19 +22,14 @@ __global__ void colorToGrayscale(unsigned char *input_image, unsigned char *outp
     int y = blockIdx.y * blockDim.y + threadIdx.y;
     
     if (x < width && y < height) {
-        // Calculate linear position in input (RGB) array
         int input_idx = (y * width + x) * channels;
-        
-        // Calculate linear position in output (grayscale) array
         int output_idx = y * width + x;
         
         unsigned char r = input_image[input_idx];
         unsigned char g = input_image[input_idx + 1];
         unsigned char b = input_image[input_idx + 2];
         
-        // Convert to grayscale using luminance formula
         unsigned char l = 0.21f * r + 0.71f * g + 0.07f * b;
-        
         output_image[output_idx] = l;
     }
 }
@@ -62,19 +57,13 @@ int main() {
         return 1;
     }
     CHECK_CUDA_ERROR(cudaMemcpy(d_iImage, image, iImageSize, cudaMemcpyHostToDevice));
-    
-    // Calculate grid dimensions to cover the entire image
     dim3 blockSize(TPB_x, TPB_y);
     dim3 gridSize((width + blockSize.x - 1) / blockSize.x, 
                   (height + blockSize.y - 1) / blockSize.y);
-    
     colorToGrayscale<<<gridSize, blockSize>>>(d_iImage, d_oImage, width, height, channels);
     CHECK_CUDA_ERROR(cudaGetLastError());
     CHECK_CUDA_ERROR(cudaDeviceSynchronize());
     CHECK_CUDA_ERROR(cudaMemcpy(o_image, d_oImage, oImageSize, cudaMemcpyDeviceToHost));
-    
-    // Write PNG file with correct parameters
-    // For grayscale, stride is just width (channels=1)
     if (!stbi_write_png("output.png", width, height, 1, o_image, width)) {
         printf("Failed to write output image\n");
     } else {
@@ -84,6 +73,5 @@ int main() {
     free(o_image);
     cudaFree(d_iImage);
     cudaFree(d_oImage);
-    
     return 0;
 }

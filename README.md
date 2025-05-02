@@ -37,3 +37,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading:-
 
 >> Read Chapter 3 (Half) of the PMPP book.
+
+## Day 5
+> Coding: -
+
+>> Coded the Image Blur Kernel 
+
+> Reading:-
+
+>> Read about Image Blur Kernel from PMPP book.
