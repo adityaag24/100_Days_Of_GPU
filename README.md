@@ -46,3 +46,16 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading:-
 
 >> Read about Image Blur Kernel from PMPP book.
+
+## Day 6
+> Coding: -
+
+>> Coded the Matrix Multiplication Kernel that calculates the output with per thread activity: -
+
+>>> Row-Wise
+
+>>> Col-Wise
+
+> Reading: -
+
+>> Solved the Exercise of Chapter 3 in PMPP book.
