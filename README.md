@@ -59,3 +59,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Solved the Exercise of Chapter 3 in PMPP book.
+
+## Day 7
+> Coding: -
+
+>> Coded the Matrix-Vector Multiplication Kernel
+
+> Reading: -
+
+>> Started Reading Chapter 4 of the PMPP Book.
