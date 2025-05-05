@@ -68,3 +68,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Started Reading Chapter 4 of the PMPP Book.
+
+## Day 8
+> Coding: -
+
+>> Coded the Reduction Kernel using Atomic Operation
+
+> Reading: -
+
+>> Read the Chapter 4 of the PMPP Book.
