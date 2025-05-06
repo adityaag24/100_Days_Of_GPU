@@ -77,3 +77,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Read the Chapter 4 of the PMPP Book.
+
+## Day 9
+> Coding: -
+
+>> Coded the Reduction Kernel that uses interleaved addressing
+
+> Reading: -
+
+>> Reading about reduction kernels from [this link](https://drive.google.com/file/d/18MxiGsXZ6QPj7q1r1RFkn2DoFHc7jNb6/view)
