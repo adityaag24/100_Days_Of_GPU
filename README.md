@@ -95,3 +95,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Reading about reduction kernels from [this link](https://drive.google.com/file/d/18MxiGsXZ6QPj7q1r1RFkn2DoFHc7jNb6/view)
+
+## Day 11
+> Coding: -
+
+>> Coded the Reduction Kernel that uses sequenced addressing to reduce bank conflicts.
+
+> Reading: -
+
+>> Reading about reduction kernels from [this link](https://drive.google.com/file/d/18MxiGsXZ6QPj7q1r1RFkn2DoFHc7jNb6/view)
