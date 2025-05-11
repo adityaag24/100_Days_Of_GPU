@@ -122,3 +122,12 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Reading about reduction kernels from [this link](https://drive.google.com/file/d/18MxiGsXZ6QPj7q1r1RFkn2DoFHc7jNb6/view)
+
+## Day 14
+> Coding: -
+
+>> Coded the CSR Representation in CPU but using the CSR to print the Degree of each Node using a CUDA Kernel.
+
+> Reading: -
+
+>> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
