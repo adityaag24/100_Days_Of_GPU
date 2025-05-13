@@ -131,3 +131,18 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
+
+## Day 15
+> Coding: -
+
+>> Added Edge Weights to the CSR Kernel
+
+>> Added Timing for GPU/CPU Comparison
+
+>> Used the Synthetic Benchmark Suite to Generate a Graph of 250k edges and 15k vertices and did performance measurements
+
+> Reading: -
+
+>> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
+
+>> [Synthetic Benchmark Suite](https://networkrepository.com/networks.php)
