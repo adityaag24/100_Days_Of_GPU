@@ -146,3 +146,18 @@ Code Repository for the 100 Days of GPU Challenge
 >> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
 
 >> [Synthetic Benchmark Suite](https://networkrepository.com/networks.php)
+
+## Day 16
+> Coding: -
+
+>> Wrote a GPU Kernel to Print Per-Vertex Edge Weight Mean
+
+>> Used the Synthetic Benchmark Suite to Generate a Graph of 250k edges and 15k vertices and did performance measurements: -
+
+>> Command: ./csr 15229 245952 .\bio-CE-CX.edges
+
+> Reading: -
+
+>> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
+
+>> [Synthetic Benchmark Suite](https://networkrepository.com/networks.php)
