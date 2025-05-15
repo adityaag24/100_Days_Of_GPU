@@ -161,3 +161,12 @@ Code Repository for the 100 Days of GPU Challenge
 >> Reading about CSR Format from [this paper](https://www.usenix.org/system/files/login/articles/login_winter20_16_kelly.pdf)
 
 >> [Synthetic Benchmark Suite](https://networkrepository.com/networks.php)
+
+## Day 17
+> Coding: -
+
+>> Wrote a GPU Kernel to Implement BFS
+
+> Reading: -
+
+>> Reading about BFS algorithm in [this paper](https://www.nvidia.co.uk/content/cudazone/CUDABrowser/downloads/Accelerate_Large_Graph_Algorithms/HiPC.pdf)
