@@ -170,3 +170,8 @@ Code Repository for the 100 Days of GPU Challenge
 > Reading: -
 
 >> Reading about BFS algorithm in [this paper](https://www.nvidia.co.uk/content/cudazone/CUDABrowser/downloads/Accelerate_Large_Graph_Algorithms/HiPC.pdf)
+
+## Day 18
+> Coding: -
+
+>> Wrote a GPU Kernel to Implement Matrix Multiplication using Tiling
