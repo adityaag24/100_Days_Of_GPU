@@ -175,3 +175,8 @@ Code Repository for the 100 Days of GPU Challenge
 > Coding: -
 
 >> Wrote a GPU Kernel to Implement Matrix Multiplication using Tiling
+
+## Day 19
+> Coding: -
+
+>> Wrote a GPU Kernel to Invert Colors of an image
