@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "chrono": "cpp",
-        "climits": "cpp"
+        "climits": "cpp",
+        "xiosbase": "cpp"
     }
 }

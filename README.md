@@ -180,3 +180,8 @@ Code Repository for the 100 Days of GPU Challenge
 > Coding: -
 
 >> Wrote a GPU Kernel to Invert Colors of an image
+
+## Day 20
+> Coding: -
+
+>> Wrote a GPU Kernel to Find the ReLU function for a set of floating point numbers.
