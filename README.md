@@ -184,4 +184,11 @@ Code Repository for the 100 Days of GPU Challenge
 ## Day 20
 > Coding: -
 
->> Wrote a GPU Kernel to Find the ReLU function for a set of floating point numbers.
+>> Wrote a GPU Kernel to Compute the ReLU function for a set of floating point numbers.
+
+## Day 21
+> Coding: -
+
+>> Wrote a GPU Kernel to Compute the Leaky ReLU function for a set of floating point numbers.
+
+>> Performance Analysis vs CPU version
