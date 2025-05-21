@@ -2,6 +2,9 @@
     "files.associations": {
         "chrono": "cpp",
         "climits": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "format": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp"
     }
 }

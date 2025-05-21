@@ -192,3 +192,8 @@ Code Repository for the 100 Days of GPU Challenge
 >> Wrote a GPU Kernel to Compute the Leaky ReLU function for a set of floating point numbers.
 
 >> Performance Analysis vs CPU version
+
+## Day 22
+> Coding: -
+
+>> Wrote a GPU Kernel to Compute the Matrix Transpose.
