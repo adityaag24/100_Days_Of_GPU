@@ -196,4 +196,9 @@ Code Repository for the 100 Days of GPU Challenge
 ## Day 22
 > Coding: -
 
->> Wrote a GPU Kernel to Compute the Matrix Transpose.
+>> Wrote a GPU Kernel to Compute the Matrix Transpose by loading through rows and storing by columns.
+
+## Day 23
+> Coding: -
+
+>> Wrote a GPU Kernel to Compute the Matrix Transpose by loading through columns and storing by rows.
